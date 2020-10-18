@@ -4,12 +4,15 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: document
+  path: data/hero.yml
+  label: Hero Test
 - type: heading
   label: Test
 - type: document
   path: data/hero.yml
   label: Hero
-  read_only: true
+  read_only: false
 - type: document
   path: data/aboutSection.yml
   label: About
