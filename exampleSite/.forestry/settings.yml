@@ -8,6 +8,10 @@ sections:
   label: Test 2
 - type: document
   path: data/hero.yml
+  label: Hero Test
+  match: "**/*"
+- type: document
+  path: data/hero.yml
   label: Hero
 - type: heading
   label: Test
