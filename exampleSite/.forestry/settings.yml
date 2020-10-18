@@ -6,11 +6,11 @@ webhook_url:
 sections:
 - type: heading
   label: Test 2
-- type: heading
-  label: Test
 - type: document
   path: data/hero.yml
   label: Hero
+- type: heading
+  label: Test
 - type: document
   path: data/aboutSection.yml
   label: About
