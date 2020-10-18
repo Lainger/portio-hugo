@@ -5,6 +5,8 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: heading
+  label: Test 2
+- type: heading
   label: Test
 - type: document
   path: data/hero.yml
